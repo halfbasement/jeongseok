@@ -1,6 +1,7 @@
 package ch11;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class CompartorEx {
     public static void main(String[] args) {
@@ -16,6 +17,11 @@ public class CompartorEx {
 
 
     }
+}
 
-    
+class Descending implements Comparator{
+    @Override
+    public int compare(Object o1, Object o2) {
+        return 0;
+    }
 }
